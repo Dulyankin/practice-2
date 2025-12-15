@@ -1,0 +1,73 @@
+/* === CSS RESET === */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    color: #222;
+}
+
+/* === HEADER === */
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 140px;
+}
+
+/* === NAVIGATION === */
+.nav__list {
+    display: flex;
+    gap: 32px;
+}
+
+.nav__link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    padding: 8px 0;
+
+    transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+    color: #6b4eff;
+}
+
+.nav__link:focus {
+    outline: 2px solid #6b4eff;
+    outline-offset: 4px;
+}
+
