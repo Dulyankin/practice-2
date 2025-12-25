@@ -195,3 +195,49 @@ body {
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+/* === ABOUT === */
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
+
+.about__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.about__text {
+    font-size: 16px;
+    color: #555;
+    max-width: 720px;
+}
+
+/* === FOOTER === */
+.footer {
+    padding: 40px 24px;
+    background-color: #fafafa;
+    border-top: 1px solid #e5e5e5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer__text {
+    font-size: 14px;
+    color: #777;
+}
+
+.footer__link a {
+    font-size: 14px;
+    color: #6b4eff;
+}
+
+.footer__link a:hover {
+    text-decoration: underline;
+}
+
