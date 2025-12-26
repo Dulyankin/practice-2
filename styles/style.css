@@ -262,3 +262,41 @@ body {
     text-decoration: underline;
 }
 
+/* === MASONRY === */
+.masonry {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
+
+.masonry__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.masonry__grid {
+    column-count: 3;
+    column-gap: 24px;
+}
+
+.masonry__item {
+    break-inside: avoid;
+    margin-bottom: 24px;
+    padding: 24px;
+
+    background-color: #fafafa;
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+}
+
+.masonry__item-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.masonry__item-text {
+    font-size: 15px;
+    color: #555;
+}
