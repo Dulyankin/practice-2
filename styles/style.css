@@ -77,6 +77,14 @@ body {
     color: #4f39c8;
 }
 
+/* === NAV FLEX ADAPTIVE === */
+@media (max-width: 767px) {
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 /* === HERO === */
 .hero {
@@ -126,6 +134,19 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+}
+
+/* === GRID ADAPTIVE === */
+@media (max-width: 1199px) {
+    .catalog__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575px) {
+    .catalog__list {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* === CARD === */
