@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 
 /* === CSS RESET === */
 *,
@@ -111,6 +114,7 @@ body {
 .hero__text {
     font-size: 18px;
     color: #555;
+    margin-bottom: 32px;
 }
 
 .hero__image {
@@ -184,7 +188,6 @@ body {
 
 /* === BUTTON === */
 .button {
-    margin-top: 32px;
     padding: 12px 24px;
 
     background-color: #6b4eff;
@@ -367,7 +370,7 @@ body {
 .scroll-top {
     position: fixed;
     right: 30px;
-    bottom: 30px;
+    bottom: 90px;
 
     width: 56px;
     height: 56px;
@@ -391,6 +394,13 @@ body {
     visibility: hidden;
     transition: opacity 0.3s ease, transform 0.2s ease;
     z-index: 900;
+
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.scroll-top::before {
+    content: "↑";
 }
 
 .scroll-top.visible {
@@ -411,7 +421,7 @@ body {
         width: 52px;
         height: 52px;
         right: 20px;
-        bottom: 20px;
+        bottom: 80px;
         font-size: 22px;
     }
 }
