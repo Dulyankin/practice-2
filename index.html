@@ -18,7 +18,18 @@
                 alt="Логотип компании"
             >
 
-            <nav class="header__nav nav">
+            <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+>
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+            </button>
+
+            <nav class="header__nav nav" id="mainNav">
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a class="nav__link" href="#catalog">Каталог</a>
@@ -34,9 +45,7 @@
         </div>
     </header>
 
-    <main>
-
-       <main class="main">
+    <main class="main">
 
         <section class="hero" id="hero">
             <div class="hero__content">
